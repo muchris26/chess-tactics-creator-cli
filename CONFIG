@@ -1,0 +1,5 @@
+{
+    "Player": "Player", 
+    "Engine": "stockfish_20090216_x64_bmi2.exe",
+    "PGN File": "game.pgn"
+}

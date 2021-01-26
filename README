@@ -1,0 +1,32 @@
+###############################################################################
+#
+#  Chess Tactics Creator v0.1
+#
+###############################################################################
+
+run command: python tactics_creator.py
+
+Command Line Python Script that takes in a PGN file of your chess games and 
+creates a PGN and FEN of your mistakes to study with your preferred program.
+PGN and FEN are placed in the results folder.  Results are dated and will
+overwrite if you run twice in a day!  Remember to rename your results.  
+
+I would recommend inputting the PGN results into YATT.  Very nice format and 
+uses spaced repetition to practice.
+
+Available from this site:
+
+https://sites.google.com/site/fredm/
+
+** Configuration settings **
+
+There is a CONFIG file in the main directory used to provide details to the 
+program.
+1. Player Name (Only assesses your mistakes, not your opponents)
+2. Engine Name (I suggest placing in main directory for ease)
+3. PGN File Name - Default is "game.pgn"
+
+Stockfish Chess Engine can be found here:
+
+https://stockfishchess.org/
+
